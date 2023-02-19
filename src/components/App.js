@@ -3,6 +3,7 @@ import '../styles/App.css';
 const App = () => {
   const buttonClick = (event)=> {
     event.preventDefault();
+    console.log("form submitted");
   }
 
 
